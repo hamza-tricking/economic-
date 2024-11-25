@@ -10,7 +10,7 @@ export default function Home() {
         <button> اطلب الآن</button>
       </div>
       <div className="slogon">
-        <h1> "العاب مذهلة للأطفال، مرح بلا حدود!"</h1>
+        <h1> العاب مذهلة للأطفال، مرح بلا حدود!</h1>
       </div>
 
       <div className="start">
