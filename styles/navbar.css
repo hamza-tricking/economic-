@@ -1,0 +1,131 @@
+.nav {
+  display: flex;
+  justify-content: space-between; /* Spaces out items to the left, center, and right */
+  position: relative;
+  padding-top: 0.3rem;
+  background-color: var(--background-color);
+  max-width: 100vw;
+}
+
+.animate-left {
+  position: absolute;
+  left: -50%; /* Start far left, off-screen */
+  top: 0;
+  z-index: 9999;
+  animation: slide-in-left 1.5s ease forwards;
+}
+
+/* Right Image Animation */
+.animate-right {
+  position: absolute;
+  right: -50%; /* Start far right, off-screen */
+  top: 0;
+  z-index: 9999;
+  animation: slide-in-right 2s ease forwards;
+}
+.upDownAnimation {
+  margin-top: -4rem;
+  animation: slide 7s ease forwards;
+}
+
+@keyframes slide {
+  from {
+    margin-top: -4rem; /* Start off-screen */
+    opacity: 0;
+  }
+  to {
+    margin-top: -0.4rem; /* Final position */
+    opacity: 1;
+  }
+}
+
+/* Keyframes for Left Image */
+@keyframes slide-in-left {
+  from {
+    left: -50%; /* Start off-screen */
+    opacity: 0;
+  }
+  to {
+    left: 47%; /* Final position */
+    opacity: 1;
+  }
+}
+
+/* Keyframes for Right Image */
+@keyframes slide-in-right {
+  from {
+    right: -50%; /* Start off-screen */
+    opacity: 0;
+  }
+  to {
+    right: 48%; /* Final position */
+    opacity: 1;
+  }
+}
+
+.my-custom-class {
+  position: absolute;
+  z-index: 9999;
+  fill: gainsboro;
+  stroke-width: 0;
+  margin-top: -1.8rem;
+  width: 77vw;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3rem;
+  margin-left: 10vw;
+  font-size: larger;
+}
+.my-custom-class .a:hover {
+  fill: rgb(150, 150, 150); /* Hover color */
+}
+.my-custom-class .a {
+  fill: gainsboro; /* Initial color */
+  cursor: pointer;
+  transition: fill 0.3s ease-in-out;
+}
+.my-custom-class .b:hover {
+  fill: rgb(150, 150, 150); /* Hover color */
+}
+.my-custom-class .b {
+  fill: gainsboro; /* Initial color */
+  cursor: pointer;
+  transition: fill 0.3s ease-in-out;
+}
+.my-custom-class .c:hover {
+  fill: rgb(150, 150, 150); /* Hover color */
+}
+.my-custom-class .c {
+  fill: gainsboro; /* Initial color */
+  cursor: pointer;
+  transition: fill 0.3s ease-in-out;
+}
+.my-custom-class .d:hover {
+  fill: rgb(150, 150, 150); /* Hover color */
+}
+.my-custom-class .d {
+  fill: gainsboro; /* Initial color */
+  cursor: pointer;
+  transition: fill 0.3s ease-in-out;
+}
+.text:hover {
+  fill: aliceblue;
+}
+
+/* wslna hna  */
+.right:hover {
+  position: absolute;
+  right: 48%; /* Start far right, off-screen */
+  top: 0;
+}
+.left:hover {
+  position: absolute;
+  right: 53%; /* Start far right, off-screen */
+  top: 0;
+}
+.split-part :hover {
+}
+
+/* start fon't  */
+
+/* start fon't  */

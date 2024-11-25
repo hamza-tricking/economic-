@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #b16ff254;
+  --primary2-color: #9bd7ffe7;
+  --secondary-color: #297b4c;
+  --background-color: #f7f7f7;
+  --text-color: #ffffff;
+
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-heading: "Arial", sans-serif;
+
+  --font-size-base: 16px;
+  --font-size-large: 1.5rem;
+  --font-size-small: 0.875rem;
+}
+@font-face {
+  font-family: "arabic-font";
+  src: url(/font/alfont_com_ArbFONTS-19720-sadokartbold_3.ttf);
+}
+body {
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
