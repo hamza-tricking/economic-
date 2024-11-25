@@ -198,10 +198,27 @@
   z-index: 99999;
   position: fixed;
   right: 0;
-  top: 0;
+  top: 50%;
 }
 .byNow button {
+  height: 4rem;
+  border-radius: 20px 0px 20px 0;
   border: none;
   background-color: rgb(255, 150, 22);
   color: antiquewhite;
+}
+.byNow button:hover {
+  height: 4rem;
+  border-radius: 20px 0px 20px 0;
+  border: none;
+  background-color: rgb(255, 22, 22);
+  color: antiquewhite;
+}
+.slogon {
+  color: aliceblue;
+  height: 4rem;
+  z-index: 999999;
+  left: 10%;
+  margin-top: 20%;
+  position: absolute;
 }
